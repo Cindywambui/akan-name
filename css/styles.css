@@ -4,9 +4,11 @@ body {
     background-repeat: no-repeat;
 }
 .container {
-    width:80%;
-    height:700px;
+    width:50%;
+    height:500px;
     margin:20px auto;
     background-color:gray;
     color:black;
+    text-align: center;
+    padding:100px;
 }
