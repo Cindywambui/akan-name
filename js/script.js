@@ -38,6 +38,18 @@
             return userInput;
     
         }
-    
+        function allFunction(){
+            validateForm();
+        };
+        function userDetails(){
+            var usrDetails = validateForm;
+            dateInput = userInput.date;
+            monthInput = userInput.month;
+            yearInput = userInput.year;
+            genderInput = userInput.gender;
+            
+            
+            alert(dateInput);
+        }
 
 
