@@ -22,4 +22,22 @@
             document.getElementById('errorInput').style.color = "red";
             return false;
         }
+        for(var i=0; i<gender.length; i++){
+            if(gender[i].checked){
+                var userGender = gender[i].value;
+                alert(userGender);
+            }else{
+                alert(" Gender Not selected")
+            }
+            var userInput = {
+                date : userDate,
+                month: userMonth,
+                year: userYear,
+                gender: userGender
+            };
+            return userInput;
+    
+        }
+    
+
 
