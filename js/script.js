@@ -17,4 +17,9 @@
             document.getElementById('errorInput').style.color = "red";
             return false;
         }
+        if(year.value == null || year.value == ""){
+            document.getElementById('errorInput').innerHTML = "Invalid Year";
+            document.getElementById('errorInput').style.color = "red";
+            return false;
+        }
 
