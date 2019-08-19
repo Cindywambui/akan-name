@@ -3,6 +3,22 @@
 #### By **Cindy Wambui**
 ## Description
 This is  a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name using javascript. 
+
+## A sample screenshot of the application
+![sample1](images/screenshot2.png)
+
+This is the landing page for the URL.
+
+![sample1](images/screenshot1.png)
+
+This is the alert that comes after the user types in their details.
+
+## Behaviour Driven Development
+
+| Behaviour  | input |  output |
+| ------------ | ------------- | ------------ |
+| Page loads | User clicks the submit button without filling the form | An error box is displayed to the user. |
+
 ## Setup/Installation Requirements
 ****
 Using a desktop or laptop,a phone and a tablet.
