@@ -1,5 +1,4 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,18 +26,19 @@
 
 
         </div>
-        <form class="image" onsubmit="userDetails()">
+        <form class="image" >
             <div id="errorInput"></div>
+            
             Date: <input type="text" value="" placeholder="DD" class="input" id="day" maxlength="2">
             Month: <input type="text" value="" placeholder="MM" class="input" id="month" maxlength="2">
             Year: <input type="text" value="" placeholder="YY" class="input" id="year" maxlength="4"><br>
+            
+            <div id="errGender"></div>
+            <input type="radio" value="male" name="gender" placeholder="male" class="gnd">Male:<br>
+            <input type="radio" value="female" name="gender" placeholder="female">Female:<br>
 
-            <div id="genderInput"></div>
-            <input type="radio" value="male" name="gender" placeholder="Male" class="gnd">Male:<br>
-            <input type="radio" value="male" name="gender" placeholder="Female">Female:<br>
 
-
-            <button type="button" class="btn">Click</button>
+            <button type="button" class="btn"  onclick="calcFunction()">Click</button>
         </form>
 
     </div>
